@@ -1,8 +1,8 @@
 ﻿using Tabuleiro;
+using Xadrez;
 
+Tabuleiro.Tabuleiro tab = new Tabuleiro.Tabuleiro(8,8);
 
-Posicao p = new Posicao(3, 4);
-
-Console.WriteLine($"Posicao: {p}");
+Tela.imprimirTabuleiro(tab);
 
 Console.ReadLine();
