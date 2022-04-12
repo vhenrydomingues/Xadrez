@@ -1,8 +1,10 @@
-﻿namespace Xadrez
+﻿using tabuleiro;
+
+namespace Xadrez
 {
     class Tela
     {
-        public static void imprimirTabuleiro(Tabuleiro.Tabuleiro tab)
+        public static void imprimirTabuleiro(Tabuleiro tab)
         {
             for (int i = 0; i < tab.linhas; i++)
             {
