@@ -35,6 +35,7 @@ try
             Console.ReadLine();
         }
     }
+
 }
 catch (TabuleiroException e)
 {
